@@ -11,6 +11,14 @@ export function Hero() {
     }
   };
 
+  const downloadCV = () => {
+    const link = document.createElement("a");
+    link.href = "/Muhammad_Faizan_CV.pdf"; // Ensure this path is correct
+    link.download = "Muhammad_Faizan_CV.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   const handleScrollToContact = () => {
     const element = document.getElementById("contact");
     if (element) {
@@ -79,7 +87,7 @@ export function Hero() {
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button 
-                onClick={handleScrollToContact}
+                onClick={downloadCV}
                 variant="outline" 
                 size="lg" 
                 className="rounded-xl px-8 border-2 hover:bg-accent hover:scale-105 transition-all"
