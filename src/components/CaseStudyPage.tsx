@@ -1,15 +1,15 @@
-import parkingImage from 'figma:asset/6c0ebf02114095428ead89bb5d57b9e9494afa0c.png';
-import dashboardImage from 'figma:asset/c7ae2b36c06dd2ea5c7caf6aec9d07c6a33e8c7a.png';
-import taskImage from 'figma:asset/e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6.png';
-import recipeImage from 'figma:asset/c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4.png';
-import portfolioImage from 'figma:asset/b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9.png';
-import socialImage from 'figma:asset/a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8.png';
-import musicImage from 'figma:asset/d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5.png';
-import weatherImage from 'figma:asset/f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7.png';
-import fitnessImage from 'figma:asset/b4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3.png';
-import travelImage from 'figma:asset/a3c4e5f6b7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2.png';
-import ecommerceImage from 'figma:asset/f0e93d2e3acfb4e3d9cc0e2f7ad10cefb1d7f55f.png';
-import bankingImage from 'figma:asset/77068ca76b9d5764fb49b28e4fe1c06a2e1d6b7c.png';
+import parkingImage from '../assets/parking.png';
+// import dashboardImage from '../assets/c7ae2b36c06dd2ea5c7caf6aec9d07c6a33e8c7a.png';
+// import taskImage from '../assets/e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6.png';
+// import recipeImage from '../assets/c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4.png';
+// import portfolioImage from '../assets/b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9.png';
+// import socialImage from '../assets/a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8.png';
+// import musicImage from '../assets/d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5.png';
+// import weatherImage from '../assets/f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7.png';
+// import fitnessImage from '../assets/b4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3.png';
+// import travelImage from '../assets/a3c4e5f6b7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2.png';
+// import ecommerceImage from '../assets/f0e93d2e3acfb4e3d9cc0e2f7ad10cefb1d7f55f.png';
+// import bankingImage from '../assets/77068ca76b9d5764fb49b28e4fe1c06a2e1d6b7c.png';
 import { useParams, Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
@@ -169,7 +169,7 @@ const caseStudies = [
       "Improved accessibility for elderly users",
     ],
     learnings: "This project reinforced the importance of designing for accessibility and clarity in healthcare settings. Small UI decisions can significantly impact trust and usability.",
-    image: dashboardImage,
+    // image: dashboardImage,
     tags: ["Healthcare", "Mobile App", "E-commerce", "Accessibility", "UI/UX Design"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -250,7 +250,7 @@ const caseStudies = [
       "Provided a more unified and polished gaming environment",
     ],
     learnings: "I learned how to manage complex data within a visually bold UI without compromising clarity. The challenge pushed me to refine information hierarchy and lightweight data visualization.",
-    image: taskImage,
+    // image: taskImage,
     tags: ["Gaming", "Dashboard", "Analytics", "Data Visualization", "UI/UX Design"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -333,7 +333,7 @@ const caseStudies = [
       "Repeat order rate increased due to saved preferences",
     ],
     learnings: "This project taught me the importance of speed and simplicity in transactional experiences. Every extra step costs conversions, and real-time feedback is crucial for user confidence.",
-    image: recipeImage,
+    // image: recipeImage,
     tags: ["Food", "Mobile App", "Delivery", "E-commerce", "UI/UX Design"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -419,7 +419,7 @@ const caseStudies = [
       "Clear differentiation from competitors",
     ],
     learnings: "This project strengthened my ability to communicate technical services in a simple, business-friendly way. I also deepened my practice in structured corporate UX and conversion-optimized layouts.",
-    image: portfolioImage,
+    // image: portfolioImage,
     tags: ["Corporate", "Web Design", "B2B", "Responsive Design", "UI/UX"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -506,7 +506,7 @@ const caseStudies = [
       "Organized and flexible portfolio management",
     ],
     learnings: "I learned how to balance creativity with usability, especially for visual-heavy websites. It reinforced the power of clean storytelling and consistency in multimedia presentations.",
-    image: socialImage,
+    // image: socialImage,
     tags: ["Creative", "Web Design", "Portfolio", "Visual Design", "UI/UX"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -589,7 +589,7 @@ const caseStudies = [
       "Better content discovery for emerging streamers",
     ],
     learnings: "This project taught me how to design for real-time interactions without cluttering the interface. Balancing creator needs with viewer experience is critical in live platforms.",
-    image: musicImage,
+    // image: musicImage,
     tags: ["Entertainment", "Streaming", "Mobile", "Social", "UI/UX Design"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -676,7 +676,7 @@ const caseStudies = [
       "Better qualified leads for sales team",
     ],
     learnings: "This project reinforced the importance of balancing technical detail with visual clarity in B2B contexts. Trust indicators are crucial for converting corporate clients.",
-    image: weatherImage,
+    // image: weatherImage,
     tags: ["Corporate", "Web Design", "B2B", "Industrial", "UI/UX"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -761,7 +761,7 @@ const caseStudies = [
       "Higher engagement with health tracking features",
     ],
     learnings: "This project emphasized the critical importance of accessibility and clarity in healthcare design. Building trust through transparent security practices is essential.",
-    image: fitnessImage,
+    // image: fitnessImage,
     tags: ["Healthcare", "Mobile App", "Wellness", "Accessibility", "UI/UX Design"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -848,7 +848,7 @@ const caseStudies = [
       "Strong brand alignment with wellness values",
     ],
     learnings: "This project taught me how visual design directly impacts user perception and trust. In wellness contexts, the design must embody the experience being offered.",
-    image: travelImage,
+    // image: travelImage,
     tags: ["Wellness", "Booking", "Web Design", "Minimal Design", "UI/UX"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -933,7 +933,7 @@ const caseStudies = [
       "Average session time increased significantly",
     ],
     learnings: "This project reinforced the importance of product presentation and trust indicators in e-commerce. Small UX improvements in checkout can dramatically impact conversion rates.",
-    image: ecommerceImage,
+    // image: ecommerceImage,
     tags: ["E-commerce", "Fashion", "Web App", "Mobile-First", "UI/UX Design"],
     duration: "Design phase",
     role: "UI/UX Designer",
@@ -1018,7 +1018,7 @@ const caseStudies = [
       "Lower bounce rate on search results",
     ],
     learnings: "This project taught me how to manage complex filtering systems while maintaining simplicity. Visual hierarchy and clear information architecture are crucial in data-heavy applications.",
-    image: bankingImage,
+    // image: bankingImage,
     tags: ["Real Estate", "Mobile App", "Search", "Maps", "UI/UX Design"],
     duration: "Design phase",
     role: "UI/UX Designer",
