@@ -13,7 +13,7 @@ export function Hero() {
 
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "Muhammad_Faizan_CV.pdf"; // Ensure this path is correct
+    link.href = '../public/Muhammad_Faizan_CV.pdf'; // Ensure this path is correct
     link.download = "Muhammad_Faizan_CV.pdf";
     document.body.appendChild(link);
     link.click();
