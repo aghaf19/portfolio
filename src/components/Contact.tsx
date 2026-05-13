@@ -29,7 +29,7 @@ export function Contact() {
               collaborations, and full-time opportunities.
             </p>
             <Button asChild variant="secondary" className="bg-white text-accent-primary hover:bg-white/90 shadow-lg">
-              <a href="mailto:aghafaizan19@gmail.com">
+              <a href="www.google.com">
                 <Mail className="mr-2 h-5 w-5" />
                 Write an email
               </a>
