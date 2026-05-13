@@ -40,14 +40,14 @@ export function Navigation() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 glass border-b border-border-light">
       <div className="max-w-7xl mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between md:justify-center items-center">
           {/* Logo */}
-          <button
+          {/* <button
             onClick={handleHomeClick}
             className="text-2xl font-bold bg-gradient-to-r from-accent-primary to-accent-secondary bg-clip-text text-transparent hover:opacity-80 transition-opacity"
           >
             MF
-          </button>
+          </button> */}
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
