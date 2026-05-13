@@ -1,5 +1,8 @@
+import React from "react";
 import { Mail } from "lucide-react";
 import { Button } from "./ui/button";
+import type { JSX } from "react";
+import "react/jsx-runtime";
 
 export function Contact() {
   return (
@@ -25,12 +28,11 @@ export function Contact() {
               Let's create something amazing together. I'm available for freelance work, 
               collaborations, and full-time opportunities.
             </p>
-            <Button 
-              variant="secondary" 
-              className="bg-white text-accent-primary hover:bg-white/90 shadow-lg"
-            >
-              <Mail className="mr-2 h-5 w-5" />
-              Write an email
+            <Button asChild variant="secondary" className="bg-white text-accent-primary hover:bg-white/90 shadow-lg">
+              <a href="mailto:aghafaizan19@gmail.com">
+                <Mail className="mr-2 h-5 w-5" />
+                Write an email
+              </a>
             </Button>
           </div>
         </div>

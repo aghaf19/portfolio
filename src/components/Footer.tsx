@@ -4,7 +4,7 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
+    { icon: Linkedin, href: "www.linkedin.com/in/muhammad-faizan3", label: "LinkedIn" },
     { icon: Mail, href: "mailto:aghafaizan19@gmail.com", label: "Email" }
   ];
 
